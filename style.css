@@ -1,0 +1,226 @@
+
+
+* {
+  box-sizing: border-box;
+}
+body{
+    margin:0;
+    background: white;
+    overflow-x:hidden;
+    font-family: 'Amatic SC', cursive;
+}
+.header { 
+    text-align: center;
+    background: #FAEBD7;
+    color: BLACK;
+    
+  }
+  
+  
+  /* Increase the font size of the heading */
+  .header h1 {
+    font-size: 80px;
+    font-family: "Brush Script MT", cursive;
+    margin:0;
+  }
+  .header p{
+    margin:0;
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+  }
+
+
+ 
+  .navbar .nav a{
+   
+    float:left;
+    padding: 14px 20px;
+    font-family: 'Amatic SC', cursive;
+    
+    color: black;
+    font-size: 30px;
+   
+    
+    text-decoration: none;
+  
+  } 
+  .navbar {
+    display: block;
+    padding-left: 100px;
+    padding-right: 100px;
+    overflow: hidden;
+    background: #FAEBD7;
+height: 50px;
+  }
+ 
+  .navbar .nav a:hover {
+    background-color: #DEB887;
+
+  }
+
+  .navbar .socialmedia{
+    float: right;
+    height: 100%;
+  padding: 5px;
+    position: relative;
+    top:-10px;
+  }
+
+   .socialmedia .fa{
+   height: 100%;
+   width:40px;
+    font-size: 25px;
+   padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #DEB887;
+    color: white;
+  }
+  .fa-instagram {
+    background: #DEB887;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #DEB887;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #DEB887;
+    color: white;
+  }
+  
+  
+
+.image img{
+  width: 1903px; /* width of container */
+  height: 800px; /* height of container */
+  object-fit: cover;
+  position: relative;
+ }
+
+.textonimg{
+  display: inline-block;
+  font-family: 'Amatic SC', cursive;
+  
+  font-size:80px;
+  position:absolute ;
+  top:50%;
+  left :70%;
+}
+
+.leftcolumn{
+  padding-top: 50px;
+  float: left;
+  width: 70%;
+   padding-left: 100px;
+ padding-right: 50px;
+}
+ .leftcolumn .card{
+  width:100%;
+  height: 400px;
+  border-width: 1px 1px 1px 0px;
+  border-color: #DCDCDC;
+ 
+  background-color: white;
+  
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+ }
+.card .thumbnailimage{
+  float: left;
+  width: 39%;
+  height:100%;
+}
+.card .thumbnailimage img{
+ 
+ width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.card .postblog{
+  float:right;
+  width: 60%;
+  height: auto;
+}
+
+.postblog .posttitle{
+  text-align: center;
+  
+  
+}
+
+.posttitle a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+}
+.postblog .posttext{
+  text-align: center;
+  font-size: 23px;
+  color: grey;
+  font-family: 'Amatic SC', cursive;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+
+ 
+
+  /* Right column */
+  .rightcolumn {
+    padding-top: 100px;
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+    background-color: white;
+  }
+
+  .rightcolumn .popularp{
+    width: 100%;
+    height: 500px;
+   
+  }
+  
+  .popularp .popular{
+    color:#DEB887;
+    font-size: 30px;
+
+  }
+
+  .popularp .populartn img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .popularp .populartn{
+    display: inline;
+  }
+  
+
+ /* Clear floats after the columns */
+.main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #FAEBD7;
+  margin-top: 20px;
+  height: 200px;
+}
